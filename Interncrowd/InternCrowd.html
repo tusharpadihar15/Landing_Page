@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InternCrowd</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Edu+NSW+ACT+Foundation:wght@500&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            background-image: url(bg1.jpg);
+            background-size: 1610px 860px;
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Baloo Bhai 2', cursive;
+            font-weight: bold;
+            color: black;
+
+        }
+
+        .left {
+            color: black;
+            display: inline-block;
+            position: absolute;
+            left: 12px;
+            top: 22px;
+            padding: 4px;
+            left: 20px;
+            font-weight: bold;
+
+        }
+
+        .left div {
+            text-align: center;
+
+        }
+
+        .left img {
+            width: 73px;
+            height: 50px;
+            margin-bottom: 2px;
+            margin-left: 18px;
+        }
+
+        .center {
+            color: black;
+            display: block;
+            width: 42%;
+            margin: 20px auto;
+
+        }
+
+        .right {
+            position: absolute;
+            right: 12px;
+            top: 20px;
+            color: black;
+            display: inline-block;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 18px;
+        }
+
+        .navbar li a {
+            font-size: 20px;
+            color: black;
+            font-weight: bold;
+            padding: 34px 23px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a:active {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .btn {
+            margin: 9px 9px;
+            color: white;
+            background-color: black;
+            padding: 4px 14px;
+            font-size: 15px;
+            cursor: pointer;
+            border: 2px solid grey;
+            font-family: 'Baloo Bhai 2', cursive;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background-color: rgb(43, 43, 43);
+        }
+
+        .container {
+            border: 3px solid black;
+            margin: 50px 80px;
+            padding: 35px;
+            width: 33%;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+
+        .container h1 {
+            font-weight: bold;
+            text-align: center;
+        }
+        .container h3 {
+            margin-top: -15px;
+            text-align: center;
+        }
+
+        .formgroup input {
+            font-size: 18px;
+            background-color: rgb(213, 231, 236);
+            text-align: center;
+            display: block;
+            width: 95%;
+            padding: 3px;
+            border-radius: 5px;
+            margin: 11px auto;
+            font-family: 'Baloo Bhai 2', cursive;
+            border: 2px solid rgb(158, 212, 232);
+        }
+
+        .container button {
+            display: block;
+            margin: auto;
+            width: 96%;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="profile.webp" alt="">
+            <div>INTERN CROWD</div>
+        </div>
+
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="">Home</a></li>
+                <li><a href="">Courses</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">About Us</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>WEB DEVELOPMENT</h1>
+        <h3>Enroll yourself for the internship</h3>
+
+        <form action="">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+
+
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Email id">
+            </div>
+
+
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your College name">
+            </div>
+
+
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Whatsapp number">
+            </div>
+
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter current year of course">
+            </div>
+
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Where did you learn about InternCrowd ?">
+            </div>
+
+            <button class="btn">Submit</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
